@@ -3,10 +3,60 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Webpage Assignment</title>
+	<!-- Favicon -->
+	<link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Qk16ltGpJ-U_2rRXRKcNe7HoNZKRMhKxSA&s">
+	<!-- Style, includes adding borders to the bordered table -->
+	<style>
+		.bordered, th, td {
+			border:1px solid black;
+		}
+	</style>
 </head>
 
 <body>
-	<h1>My name is Loona Steinhardt.</h1>
+	<!-- table with no border -->
+	<table>
+		<tr>
+			<td>Loona Steinhardt</td>
+		</tr>
+		<tr>
+			<!-- Link to school's webpage, into a new tab -->
+			<td><a href="https://www.uwgb.edu/" target="_blank">University of Wisconsin-Green Bay main webpage</a></td>
+		</tr>
+		<tr>
+			<!-- Link to my town's wikipedia page, don't have public/active social media -->
+			<td><a href="https://en.wikipedia.org/wiki/Plymouth,_Wisconsin">Wikipedia page to my home town</a></td>
+		</tr>
+	</table>
+	<p>
+		A picture that looks like my dog! 🥰
+		<!-- Image link -->
+		<img src="https://live.staticflickr.com/652/22949062876_becfe60538_b.jpg" alt="Cavachon dog"> &#8592;
+	</p>
+	<br>
+	<!-- Table with borders, includes the ordered and unordered list -->
+	<table class="bordered">
+		<tr>
+			<th>Interests</th>
+			<th>Education</th>		
+		</tr>
+		<tr>
+			<td>
+				<ol type="a">
+					<li>Reading</li>
+					<li>Writing</li>
+					<li>Video Games</li>
+				</ol>
+			</td>
+			<td>
+				<ul>
+					<li>Currently a sophomore</li>
+					<li>Majoring in Information Technology</li>
+					<li>Expected to graduate in 2027</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
 </body>
 </html>
